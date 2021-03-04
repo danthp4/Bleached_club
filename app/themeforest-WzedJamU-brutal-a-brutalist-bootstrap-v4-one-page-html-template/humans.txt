@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Michael Palmer, MP Web: michaelpalmerwebdesign.com
+	  Author: Theme designed and developed by Michael Palmer, MP Web.
+	  Website: https://www.michaelpalmerwebdesign.com.
+	  Copyright MP Web 2018.
+	  Theme website: https://www.brutalist.design.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, SCSSPHP, Bootstrap v4
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
