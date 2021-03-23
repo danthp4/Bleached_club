@@ -10,8 +10,8 @@ switch (nightmode) {
     var hr = (new Date()).getHours();
     if ((hr >= 19 && hr <= 24) || hr >= 0 && hr <= 7) {
       setTimeout(function () {
-        document.getElementById('main-css').setAttribute('href', './css/main.nightmode.min.css');
-        document.getElementById('main-css').dataset.mode = './css/main.min.css';
+        document.getElementById('main-css').setAttribute('href', '../static/css/main.nightmode.min.css');
+        document.getElementById('main-css').dataset.mode = '../static/css/main.min.css';
         document.getElementsByClassName('style-toggle-title')[0].textContent = 'night';
         document.getElementsByClassName('style-toggle-title')[0].dataset.title = 'day';
       }, 75);
@@ -20,8 +20,8 @@ switch (nightmode) {
 
   case 'nightmode-on':
     setTimeout(function () {
-      document.getElementById('main-css').setAttribute('href', './css/main.nightmode.min.css');
-      document.getElementById('main-css').dataset.mode = './css/main.min.css';
+      document.getElementById('main-css').setAttribute('href', '../static/css/main.nightmode.min.css');
+      document.getElementById('main-css').dataset.mode = '../static/css/main.min.css';
       document.getElementsByClassName('style-toggle-title')[0].textContent = 'night';
       document.getElementsByClassName('style-toggle-title')[0].dataset.title = 'day';
     }, 75);
